@@ -1,0 +1,21 @@
+[project]
+name = "automatic-slr"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "asreview>=1.1.1",
+    "ipykernel>=7.3.0",
+    "ipywidgets>=8.1.8",
+    "openai>=2.46.0",
+    "pandas>=3.0.3",
+    "setuptools==81.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+    "ipywidgets>=8.1.8",
+    "jupyterlab>=4.6.1",
+]
